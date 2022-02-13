@@ -1595,3 +1595,44 @@ responsive
   color: var(--white);
   text-decoration: none;
 }
+
+
+/* Google Translator Styling */
+.translated-ltr{margin-top:-40px;}
+.translated-ltr{margin-top:-40px;}
+.goog-te-banner-frame {display: none;margin-top:-20px;}
+
+.goog-logo-link {
+   display:none !important;
+} 
+
+.goog-te-gadget{
+   color: transparent !important;
+}
+.goog-te-combo{
+  /* height: 200px; */
+  /* width: 400px; */
+  /* margin: 50px auto 0; */
+  box-shadow: 0 5px 5px var(--gray);
+  background-color: var(--lightgray);
+  height: 3vh;
+  /* color: var(--white); */
+  /* border-radius: 0px; */
+  /* min-width: 100px; */
+  /* box-shadow: 10px 10px 5px grey; */
+  /* padding-left: 25px; */
+  /* margin: 20px; */
+  /* padding: 6px 10px; */
+  /* z-index: 1; */
+  /* font-size: 1rem; */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* 
+.goog-te-combo:hover{
+  background-color: var(--gray);
+  color: var(--white);
+  } */    

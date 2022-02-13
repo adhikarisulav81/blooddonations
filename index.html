@@ -87,7 +87,7 @@
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
 
-              <li class=""><a href="#" class="active"><i class="fa fa-home" style="font-size: 20px;"></i>&nbsp; Home</a>
+              <li><a href="#" class="active"><i class="fa fa-home" style="font-size: 20px;"></i>&nbsp; Home</a>
               </li>
               <li><a href="about.html"><i class="fas fa-hand-holding-medical" style="font-size: 20px;"></i>&nbsp;
                   About</a>
@@ -96,8 +96,25 @@
                 </a>
               </li>
 
-              <li class=""><a href="contact.html"><i class="fas fa-map-marker-alt" style="font-size: 20px;"></i>&nbsp;
+              <li><a href="contact.html"><i class="fas fa-map-marker-alt" style="font-size: 20px;"></i>&nbsp;
                   Contact</a></li>
+
+              <!-- Begin Google Translator -->
+              <li>
+                <div class="translate">
+                  <div id="google_element" class="mt-1">
+                  </div>
+                </div>
+                <script src=" https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate">
+                </script>
+                <script>
+                  function loadGoogleTranslate() {
+                    new google.translate.TranslateElement("google_element");
+                  }
+                </script>
+              </li>
+              <!-- End Google Translator -->
+
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
